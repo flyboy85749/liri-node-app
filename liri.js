@@ -7,7 +7,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 
 // First, let's work on the spotify info
-var Spotify = require('node-spotify-api').default;
+var Spotify = require('node-spotify-api');
 
 // need credentials
 var spotify = new Spotify(keys.spotify);
@@ -98,6 +98,8 @@ var choice = function (caseData, functionData) {
 
   // make it so, number 2
 var run = function (arg1, arg2) {
+
+  // call choice and pass in user input
     choice(arg1, arg2);
   }
   
