@@ -21,4 +21,4 @@ This search result is for the band 'foreigner', one of my favorites.
 <img src="images/concert.png">
 
 do-what-it-says:
-User enters do-what-it-says and the text from a file is read and the output displayed.
+User enters "do-what-it-says" and the text from a file is read and the output displayed.
